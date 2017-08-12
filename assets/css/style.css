@@ -10,15 +10,45 @@ h2 {
 	color: black;
 }
 
+h3 {
+	font-size: 20px;
+	font-family: Arial, Times, serif;
+	color: black;
+	text-align: center;
+}
+
+/* Not using
 p {
 	font-size: 20px;
 	font-family: Arial, Times, serif;
 	color: black;
 }
+*/
 
 #portrait {
-	width: 15%;
+	width: 250px;
 	height: auto;
+	float: left;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.bio {
+	font-size: 20px;
+	font-family: Arial, Times, serif;
+	color: black;
+	padding-top: 0px;
+	padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    width: 670px;
+    height: 200px;
+}
+
+.connect {
+	float: right;
 }
 
 #github, #linkedin, #stackoverflow {
@@ -26,9 +56,11 @@ p {
 	height: auto;
 }
 
-
 footer {
 	font-size: 12px;
 	font-family: Arial, Times, serif;
 	color: gray;
+	float: left;
+	text-align: center;
+	padding-top: 100px;
 }
