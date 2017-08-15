@@ -1,20 +1,30 @@
+h1, h2, h3{
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	display: inline;
+}
+
 h1 {
 	font-size: 40px;
-	font-family: Arial, Times, serif;
 	color: black;
+	border: solid;
+	border-color: black;
 }
 
 h2 {
 	font-size: 30px;
-	font-family: Arial, Times, serif;
 	color: black;
+
 }
 
 h3 {
 	font-size: 20px;
-	font-family: Arial, Times, serif;
 	color: black;
 	text-align: center;
+}
+
+header {
+	display: inline-block;
+	background-color: black;
 }
 
 /* Not using
@@ -25,29 +35,163 @@ p {
 }
 */
 
+
+/* Start: Navigation Bar */
+
+#nav {
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-sarif;
+	border: solid;
+	border-color: black;
+	float: right;
+	width: 600px;
+	margin: 0 20px 0 20;
+	padding: 0;
+	list-style: none;
+	display: inline;
+	background-color: black;
+}
+
+
+.navbtn {
+	display: inline;
+	margin-right: 10px;
+
+}
+
+#portfolio {
+	float: left;
+}
+
+#contact {
+	padding-left: 20px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* End: Navigation Bar */
+
+
+/* Start: Links */
+
+a:link {
+    color: white; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    opacity: 75%;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* End: Links */
+
+
+/* Start: index.html */
+
+#connect {
+	display: inline-block;
+	border: solid;
+	border-color: black;
+	float: right;
+	width: 270px;
+}
+
+#main{
+	border: solid;
+	border-color: black;
+	float: left;
+	padding: 15px;
+	width: 650px;
+}
+
+.smbtn{
+	display: inline-block;
+	padding: 10px;
+}
+
 #portrait {
 	width: 250px;
 	height: auto;
 	float: left;
-    padding-top: 0px;
-    padding-right: 20px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+	display: inline;
+    padding: 0px 20px 0px 0px;
 }
 
-.bio {
+#bio {
 	font-size: 20px;
 	font-family: Arial, Times, serif;
 	color: black;
-	padding-top: 0px;
-	padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    width: 670px;
+	display: inline;
+	padding: 0px 0px 0px 0px;
+    width: 300px;
     height: 200px;
 }
 
+/* End: index.html */
+
+
+/* Start: Portfolio */
+
+.projects {
+	font-family: Arial, Times, serif;
+	border: solid;
+	border-color: black;
+	background: transparent;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 40px 10px 40px;
+	text-align: center;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+.protext {
+	display: inline-block;
+	background-color: blue;
+}
+
+#hangman {
+
+}
+
+#rpg {
+
+}
+
+#trivia {
+
+}
+
+#rutgers {
+
+}
+
+#rock {
+
+}
+
+/* Start: Connect With Me */
 .connect {
+	display: inline;
 	float: right;
 }
 
@@ -56,11 +200,15 @@ p {
 	height: auto;
 }
 
+/* End: Connect With Me */
+
 footer {
 	font-size: 12px;
 	font-family: Arial, Times, serif;
 	color: gray;
 	float: left;
 	text-align: center;
-	padding-top: 100px;
+	margin-top: 10px;
+	clear: left;
+
 }
