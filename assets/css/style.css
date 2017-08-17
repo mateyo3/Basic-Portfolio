@@ -88,25 +88,25 @@ ul {
 
 /* Start: Links */
 
+a{
+	text-decoration: none;
+}
+
 a:link {
     color: white; 
-    text-decoration: none;
 }
 
 a:visited {
     color: white;
-    text-decoration: none;
 }
 
 a:hover {
     color: orange;
     opacity: 75%;
-    text-decoration: underline;
 }
 
 a:active {
     color: yellow;
-    text-decoration: underline;
 }
 
 /* End: Links */
@@ -230,3 +230,4 @@ footer {
 	position: fixed;
 	bottom: 0;
 }
+git 
