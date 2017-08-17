@@ -1,3 +1,7 @@
+body {
+	background-image: url(https://www.pixeden.com/media/k2/galleries/165/001-subtle-light-pattern-background-texture-vol5.jpg);
+}
+
 h1, h2, h3{
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	display: inline;
@@ -25,6 +29,9 @@ h3 {
 header {
 	display: inline-block;
 	background-color: black;
+	padding: 4px;
+	margin-left: 10px;
+
 }
 
 /* Not using
@@ -46,7 +53,7 @@ p {
 	float: right;
 	width: 600px;
 	margin: 0 20px 0 20;
-	padding: 0;
+	padding-left: 10px;
 	list-style: none;
 	display: inline;
 	background-color: black;
@@ -107,20 +114,26 @@ a:active {
 
 /* Start: index.html */
 
-#connect {
-	display: inline-block;
-	border: solid;
-	border-color: black;
-	float: right;
-	width: 270px;
-}
+
 
 #main{
 	border: solid;
 	border-color: black;
+	border-radius: 12px;
 	float: left;
+	margin-top: 5px;
 	padding: 15px;
 	width: 650px;
+}
+
+#connect {
+	display: inline-block;
+	border: solid;
+	border-color: black;
+	border-radius: 12px;
+	float: right;
+	width: 270px;
+	margin-top: 5px;
 }
 
 .smbtn{
@@ -155,7 +168,6 @@ a:active {
 	font-family: Arial, Times, serif;
 	border: solid;
 	border-color: black;
-	background: transparent;
 	margin: 10px 10px 10px 10px;
 	padding: 10px 40px 10px 40px;
 	text-align: center;
@@ -164,9 +176,15 @@ a:active {
 	height: 100px;
 }
 
+div.projects {
+	content:url(http://juliarfellows.com/wp-content/uploads/2014/03/icon_4850.png);
+}
 .protext {
+	padding: 5px;
 	display: inline-block;
 	background-color: blue;
+	width: 130px;
+	z-index: 1;
 }
 
 #hangman {
@@ -202,13 +220,13 @@ a:active {
 
 /* End: Connect With Me */
 
+
 footer {
 	font-size: 12px;
 	font-family: Arial, Times, serif;
 	color: gray;
 	float: left;
-	text-align: center;
-	margin-top: 10px;
-	clear: left;
-
+	margin-bottom: 15px;
+	position: fixed;
+	bottom: 0;
 }
