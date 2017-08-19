@@ -11,7 +11,6 @@ h1 {
 	font-size: 40px;
 	color: black;
 	text-align: center;
-	text-shadow: 1px 1px #000000;
 }
 
 h2 {
@@ -35,6 +34,11 @@ header {
 
 
 /* Start: Navigation Bar */
+
+#name {
+	font-size: 60px;
+	text-shadow: 1px 1px #000000;
+}
 
 #nav {
 	font-size: 20px;
@@ -112,8 +116,6 @@ a:hover img {
 
 /* Start: index.html */
 
-
-
 #main{
 	border: solid;
 	border-color: black;
@@ -135,7 +137,6 @@ a:hover img {
 	margin-top: 5px;
 	text-align: center;
 }
-
 
 .smbtn{
 	display: inline-block;
@@ -239,6 +240,7 @@ footer {
 	font-family: Arial, Times, serif;
 	color: gray;
 	float: left;
+	padding-left: 10px;
 	margin-bottom: 15px;
 	position: fixed;
 	bottom: 0;
